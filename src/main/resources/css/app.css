@@ -1,0 +1,13 @@
+/* 应用基础样式（可按品牌扩展） */
+.root {
+    -fx-font-size: 13px;
+    -fx-font-family: "Microsoft YaHei", "Segoe UI", sans-serif;
+}
+
+.titled-pane > .title {
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-padding: 6 14;
+}

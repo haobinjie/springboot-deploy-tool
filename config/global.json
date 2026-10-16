@@ -1,0 +1,10 @@
+{
+  "version" : "1.0",
+  "projectDir" : "E:\\sprixinwork3\\DemoHello",
+  "buildCommand" : "mvnd clean package -DskipTests",
+  "buildType" : "MAVEN",
+  "autoDetectJar" : true,
+  "logColorEnabled" : true,
+  "uploadBufferSizeKb" : 32,
+  "aesKeyRef" : "local"
+}

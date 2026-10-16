@@ -1,0 +1,35 @@
+{
+  "version" : "1.0",
+  "selectedServerId" : "230f7346-9d48-4b1a-b33a-188ee3fb92e6",
+  "servers" : [ {
+    "id" : "srv-demo-0001",
+    "name" : "演示环境",
+    "host" : "192.168.1.100",
+    "port" : 22,
+    "authType" : "PASSWORD",
+    "username" : "root",
+    "password" : "changeme",
+    "privateKeyPath" : "",
+    "passphrase" : "",
+    "remoteDir" : "/opt/app/springboot",
+    "startScript" : "/opt/app/springboot/start.sh",
+    "stopScript" : "/opt/app/springboot/stop.sh",
+    "commandTimeoutSec" : 60,
+    "remark" : "示例配置，请替换为真实服务器信息"
+  }, {
+    "id" : "230f7346-9d48-4b1a-b33a-188ee3fb92e6",
+    "name" : "测试环境",
+    "host" : "10.10.12.237",
+    "port" : 22,
+    "authType" : "PASSWORD",
+    "username" : "root",
+    "password" : "sprixin123",
+    "privateKeyPath" : "",
+    "passphrase" : "",
+    "remoteDir" : "/home/sprixin/test",
+    "startScript" : "/home/sprixin/test/start.sh",
+    "stopScript" : "/home/sprixin/test/stop.sh",
+    "commandTimeoutSec" : 60,
+    "remark" : ""
+  } ]
+}
